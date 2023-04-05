@@ -1,7 +1,6 @@
 body{
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #333;
+	color: #fff;
 }
 *{
 	padding: 0;
@@ -17,9 +16,8 @@ ul, ol{
 	padding-top: 10px;
 }
 img{
-	width: 100%;	
+	width: 110%;	
 	padding-right: 10px;
-	margin-bottom: 10px;
 }
 .container{
 	width: 100%;
@@ -55,9 +53,36 @@ img{
 	top: 20px
 }
 .title-contact{
-	margin-top: auto;
+	width: 100px;
 }
 .item-menu-logo{
 	width: 100px;
 	margin-right: 80px;
+}
+.book-name .logo{
+	width: 100px;
+}
+.title-contact h2{
+	font-size: 45px;
+	font-weight: 100px;
+	margin-top: 15px;
+	width: 1400px;
+	line-height: 54px;
+	text-align: center;
+}
+.title-contact .logo{
+	display: block;
+	margin-left: 500px;
+}
+.logo{
+	margin-top: 50px;
+}
+.title-contact p{
+	width: 600px;
+	font-style: italic;
+	color: #d77647;
+	margin-left: 300px;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 20px;
 }
