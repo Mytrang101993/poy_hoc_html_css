@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Poy</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,87 +12,99 @@
 			<div class="row">
 				<ul class="list-menu">
 					<li class="item-menu">
-						<a href="#">Home</a>
-						<ul class="list-menu-child">
-							<li class="item-menu-child">
-								<a href="#">Home 2</a>
-							</li>
-						</ul>						
+						<a href="#">Home</a>			
 					</li>
 					<li class="item-menu">
 						<a href="#">About</a>
 					</li>
 					<li class="item-menu">
 						<a href="#">Menu</a>
-						<ul class="item-menu-child">
-							<a href="#">Menu 1</a>						
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Menu 2</a>
-						</ul>		
-						<ul class="item-menu-child">
-							<a href="#">Menu 3</a>
-						</ul>				
+						<div class="drop-menu">
+							<ul class="list-menu-child">
+								<li class="item-menu-child">
+									<a href="#">Menu 1</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Menu 2</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Menu 3</a>
+								</li>
+							</ul>
+						</div>						
 					</li>
 					<li class="item-menu">
-						<a href="#">Team</a>
+						<a href="#">Team</a>									
 					</li>			
-					<li class="item-menu-logo">
-						<img src="images/logo.jpg" alt="">
+					<li class="item-menu item-menu-logo">
+						<a href="#">
+							<img src="images/logo.svg" alt="">
+						</a>
 					</li>		
 					<li class="item-menu">
-						<a href="#">Gallery</a>
+						<a href="#">Gallery</a>						
 					</li>	
 					<li class="item-menu">
 						<a href="#">Shop</a>
-						<ul class="item-menu-child">
-							<a href="#">Grid</a>
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Single Product</a>
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Cart</a>
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Checkout</a>
-						</ul>
+						<div class="drop-menu">
+							<ul class="list-menu-child">
+								<li class="item-menu-child">
+									<a href="#">Grid</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Single Product</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Cart</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Checkout</a>
+								</li>
+							</ul>
+						</div>								
 					</li>	
 					<li class="item-menu">
 						<a href="#">Blog</a>
-						<ul class="item-menu-child">
-							<a href="#">Standard</a>
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Classic</a>
-						</ul>	
-						<ul class="item-menu-child">
-							<a href="#">Grid</a>
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Details</a>
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Details With Sidebar</a>
-						</ul>						
+						<div class="drop-menu">
+							<ul class="list-menu-child">
+								<li class="item-menu-child">
+									<a href="#">Standard</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Classic</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Grid</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Details</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Details With Sidebar</a>
+								</li>								
+							</ul>
+						</div>								
 					</li>		
 					<li class="item-menu">
 						<a href="#">Contact</a>
-						<ul class="item-menu-child">
-							<a href="#">Contact 1</a>
-						</ul>
-						<ul class="item-menu-child">
-							<a href="#">Contact 2</a>
-						</ul>
-					</li>								
-				</ul>
+						<div class="drop-menu">
+							<ul class="list-menu-child">
+								<li class="item-menu-child">
+									<a href="#">Contact 1</a>
+								</li>
+								<li class="item-menu-child">
+									<a href="#">Contact 2</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+
+				</ul><!--end list-menu-->
 			</div>
 		</div>
 	</header>
 	<section class="wrap-banner">		
-			<div class="row">
-				<img src="images/2.jpg"alt="">				
-			</div>
+		<img src="images/2.jpg"alt="">				
 	</section>
 	<section class="book-name">
 		<div class="container">
@@ -111,30 +123,41 @@
 		<div class="container">
 			<div class="row">
 				<div class="wrap-col-search">
-				<div class="input-group">
-					<p>Your Name</p>
-					<input class="ip-name" type="text" placeholder="Ex: John Doe">
-				</div>	
-				<div class="input-group">
-					<p>No. of Person</p>
-					<input class="ip-name" type="text" placeholder="No. of Person">
-				</div>						
-				<div class="input-group">
-					<p>Date</p>
-					<input class="ip-name" type="text" placeholder="mm/dd/yyyy">
-				</div>
-				<div class="input-group">
-					<p>Time</p>
-					<input class="ip-name" type="text" placeholder="--:-- --">
-				</div>	
-				<div class="input-group-now">
-					<a href="#">Reserve A Table</a>
-				</div>								
+					<div class="input-group">
+						<p>Your Name</p>
+						<input class="ip-name" type="text" placeholder="Ex: John Doe">
+					</div>	
+					<div class="input-group">
+						<p>No. of Person</p>
+						<input class="ip-name" type="text" placeholder="No. of Person">
+					</div>						
+					<div class="input-group">
+						<p>Date</p>
+						<input class="ip-name" type="text" placeholder="mm/dd/yyyy">
+					</div>
+					<div class="input-group">
+						<p>Time</p>
+						<input class="ip-name" type="text" placeholder="--:-- --">
+					</div>	
+					<div class="input-group-now">
+						<a href="#">Reserve A Table</a>
+					</div>								
 				</div>
 			</div>
 		</div>
 	</section>	
+	<section class="about-us-home">
+		<div class="about-us-inner">
+			<div class="row">
+				<div class="col-left">
+					<h1>About Us</h1>
+					<p>Hungrybuzz cooks food as a culnery Art</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tempor incididunt ut labore et dolore magna aliqua. Ut en ad minim veniam, quis nostrud exercitation ullamco lab aliquip ex ea commodo consequat. Penat.</p>
+					<p>Learn More</p>
+				</div>
+			</div>
+		</div>
 		
-	
+	</section>
 </body>
 </html>
