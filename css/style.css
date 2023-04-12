@@ -262,6 +262,10 @@ img{
 .foodmenu-tab-container .col-left{
 	padding-right: 15px;
     padding-left: 15px;
+    width: 715px;
+}
+.foodmenu-tab-container .col-right{
+	width: 715px;
 }
 .foodmenu-tab-container .foodmenu-content{
 	padding: 0px 40px;
@@ -277,6 +281,7 @@ img{
 	font-size: 18px;
 	font-weight: 500;
 	align-items: center;
+	margin-bottom: 8px;
 }
 .foodmenu-content .menu-item-inner .line{
     flex-grow: 1;
@@ -293,4 +298,50 @@ img{
     line-height: 20px;
     font-style: italic;
     color: #d77647;
+}
+.grillman-light{
+	width: 500px;
+	margin-left: 660px;
+}
+.grillman-light p{
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+	color: #e5dcdb;
+	opacity: 0.6;
+	margin-top: -155px;
+	margin-bottom: 145px;
+}
+.platter{
+	background-image: url(../images/bg8.png);
+	padding-top: 100px;
+	padding-bottom: 216px;
+}
+.platter .platter-title{
+	text-align: center;
+}
+.platter .platter-title h4{
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.platter .platter-box-item{
+	text-align: center;
+}
+.platter .platter-box-item h6{
+	color: #d77647;
+	font-weight: 600;
+	margin-top: 20px;
+	font-size: 25px;
+}
+.platter .platter-box-item p{
+	font-style: italic;
+	padding-top: 5px;
+	font-size: 20px;
+	color: #ffffff;
+}
+.sec-speciality{
+	background-image: url(../images/bg9.jpg);
+}
+.sec-speciality .frontend{
+	width: 60px;
 }
