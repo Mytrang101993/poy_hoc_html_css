@@ -212,13 +212,19 @@ img{
 	margin: 0px 40px;
 }
 .main{
-	padding-top: 70px;
+	padding-top: 290px;
 }
-.section-header{
-	padding: 200px 450px 0px;
+.main .section-header{
 	position: relative;	
+	width: 287px;
+	margin-left: 450px;
+	padding-bottom: 40px;
 }
-.section-header h2{
+.main .sub{
+	position: absolute;
+	top: 130px;
+	right: -465px;
+	width: 1200px;
 	margin-bottom: 10px;
 	text-align: center;
 	font-size: 50px;
@@ -227,16 +233,9 @@ img{
 .section-header p{
 	font-size: 20px;
     color: #d77647;
-    width: 1200px;
+    width: 600px;
     font-weight: 400;
     font-style: italic;
-    text-align: center;
-}
-.main .sub{
-	position: absolute;
-	top: 335px;
-	right: 0;
-	width: 1200px;
 }
 .foodmenu-tab .foodmenu-tab-button-group{
 	width: 100%;
@@ -340,17 +339,17 @@ img{
 	color: #ffffff;
 }
 .sec-speciality{
-	/*background-image: url(../images/bg9.jpg);*/
 	position: relative;
 }
 .sec-speciality .col-left{
 	position: absolute;
-	top: 400px;
+	top: 110px;
 	padding-right: 15px;
 	padding-left: 15px;
+	align-items: center;
 }
 .sec-speciality .speciality-square{
-	
+	width: calc(100% * (1/2));
 	flex-flow: row wrap;
 }
  .speciality-item{
@@ -359,26 +358,19 @@ img{
     margin: 1px;
     background-color: #2a2423;
 }
-.speciality-square .speciality-item:hover .backend{
-}
 .speciality-item .frontend{
-	padding: 20px 0px;
-	padding-left: 32px;
     width: 302px;
+    text-align: center;
 }
 .speciality-item .frontend img{
 	width: 57px;
 	height: 57px;
-	margin-left: 85px;
 }
 .speciality-item .frontend h6{
 	font-size: 20px;
 	font-weight: 500;
 	margin-top: 20px;
 	font-family: "Spectral", serif;
-}
-.speciality-item .frontend h6{
-	margin-left: 65px;
 }
 .speciality-item .backend h5{
 	color: #d77647;
@@ -389,4 +381,50 @@ img{
 }
 .speciality-item .backend p{
 	font-size: 15px;
+	text-align: center;
+}
+.section-header .col-right{
+	text-align: center;
+}
+.sec-speciality .section-header h2{
+	margin-bottom: 20px;
+	font-size: 40px;
+	text-align: left;
+}
+.sec-speciality .section-header p{
+	font-size: 20px;
+	color: #fff;
+	margin: 30px;
+	text-align: left;
+    margin-left: 0;
+    width: 595px;
+}
+.speciality-item .backend {
+	position: fixed;
+}
+.col-right h6{
+	color: #d77647;
+	font-size: 25px;
+	font-weight: 500;
+	font-style: italic;
+}
+.section-gallery{
+	padding-top: 100px;
+}
+.section-gallery .section-header{
+	position: relative;	
+	width: 287px;
+	margin-left: 450px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.section-gallery .sub{
+	position: absolute;
+	top: 130px;
+	right: -465px;
+	width: 1200px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
 }
