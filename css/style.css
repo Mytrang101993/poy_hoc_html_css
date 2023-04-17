@@ -236,6 +236,8 @@ img{
     width: 600px;
     font-weight: 400;
     font-style: italic;
+    margin-left: -100px;
+    margin-top: -45px;
 }
 .foodmenu-tab .foodmenu-tab-button-group{
 	width: 100%;
@@ -418,6 +420,9 @@ img{
 	padding-bottom: 40px;
 	text-align: center;
 }
+.section-gallery .section-header p{
+	margin-left: -145px;
+}
 .section-gallery .sub{
 	position: absolute;
 	top: 130px;
@@ -427,4 +432,76 @@ img{
 	text-align: center;
 	font-size: 50px;
 	font-weight: 600;
+}
+.portfolio-grid .grid-item{
+	padding: 15px;
+}
+.portfolio-grid .product-thumb{
+	position: relative;
+}
+.portfolio-grid .product-item-iner{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 45px 40px;
+}
+.portfolio-grid .food-category{
+	font-size: 14px;
+	font-weight: 400;
+	color: #d77647;
+	margin-bottom: 5px;
+}
+.portfolio-grid .food-name{
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 1.5px;
+}
+.testimonial{
+	background-color: #1f1917;
+	position: relative;
+	padding: 90px 60px;
+	margin-top: 70px;
+	position: relative;
+}
+.testimonial .testi-images{
+	width: 100px;
+	height: auto;
+	margin: 0 auto;
+}
+.testimonial .rating{
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: absolute;
+}
+.testimonial .rating li i{
+	font-size: 16px;
+	color: #d77647;
+}
+.testimonial .testi-content{
+	text-align: center;
+	width: 770px;
+	margin-left: 180px;
+	margin-top: 50px;
+}
+.testimonial .testi-content p{
+	font-size: 24px;
+	font-style: italic;
+}
+.testimonial .testi-content .testi-info{
+	margin-top: 25px;
+}
+.testimonial .testi-info h5{
+	font-size: 30px;
+	font-weight: 600;
+	font-family: serif;
+	letter-spacing: 1.5px;
+}
+.testimonial .testi-info h6{
+	color: #d77647;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
 }
